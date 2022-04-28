@@ -80,11 +80,12 @@ aside ul li div {
 main {
   margin-left: 220px;
   width: 100vw;
+  height: 5000px;
 }
 
 main header {
   background-color: #fdf1eb;
-  padding: 5 px 36px;
+  padding: 5px 36px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -222,6 +223,7 @@ main .movie-container {
 main .movie-container iframe {
   margin-right: 30px;
   width: 100%;
+  border-radius: 3px;
 }
 
 main .movie-container .details {
@@ -232,7 +234,7 @@ main .movie-container .details {
 main .movie-container .details h2 {
   background-color: #fdf1eb;
   border: #ececec;
-  width: 242px;
+  width: 100%;
   font-size: 20px;
   padding: 10px;
   color: #4e4e4e;
@@ -249,5 +251,93 @@ main .movie-container .details ul li {
   font-weight: 400;
   list-style-type: none;
   color: #5c5c5c;
+}
+
+main .overview-section p {
+  padding: 10px;
+  border: 1px solid #ececec;
+  border-top: none;
+  font-weight: 400;
+  color: #5c5c5c;
+}
+
+main .sections-containers {
+  width: 100%;
+  padding: 0px 40px;
+  margin-top: 20px;
+}
+
+main .sections-containers h2 {
+  background-color: #fdf1eb;
+  border: 1px solid #ececec;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  color: #4e4e4e;
+  font-weight: 500;
+}
+
+main .discussions-section .discussions-content {
+  margin-top: 20px;
+  border: 1px solid #ececec;
+  border-top: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ed7839;
+}
+
+main .discussions-section .discussions-content .icons {
+  margin: 30px 0px;
+  background-color: red;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .discussions-section .discussions-content p {
+  color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .discussions-section .discussions-content button {
+  cursor: pointer;
+  height: 32px;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#feb254), to(#f0813d));
+  background-image: linear-gradient(to bottom, #feb254, #f0813d);
+  border: none;
+  color: white;
+  padding: 20px;
+  margin-left: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=baseStyle.css.map */
