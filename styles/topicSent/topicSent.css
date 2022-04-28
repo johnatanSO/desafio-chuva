@@ -296,6 +296,24 @@ main .discussions-section .discussions-content {
   color: #ed7839;
 }
 
+main .discussions-section .discussions-content .await {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+main .discussions-section .discussions-content .await img {
+  width: 30px;
+}
+
 main .discussions-section .discussions-content p {
   text-align: center;
   color: #595959;
