@@ -330,6 +330,10 @@ main .discussions-section .discussions-content .separator {
           justify-content: center;
 }
 
+main .discussions-section .discussions-content .separator a {
+  text-decoration: none;
+}
+
 main .discussions-section .discussions-content .separator button {
   margin: 0;
 }
@@ -407,6 +411,14 @@ main .discussions-section .discussions-content .asks .ask p {
   text-align: start;
   color: #4D4D4D;
   font-weight: 400;
+}
+
+main .discussions-section .discussions-content .asks .ask h3 {
+  color: #ED7839;
+}
+
+main .discussions-section .discussions-content .asks a {
+  text-decoration: none;
 }
 
 main footer {

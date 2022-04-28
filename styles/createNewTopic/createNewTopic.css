@@ -258,7 +258,7 @@ main .overview-section p {
   border-top: none;
   font-weight: 400;
   color: #5c5c5c;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 main .sections-containers {
@@ -303,7 +303,7 @@ main .discussions-section .discussions-content p {
   font-size: 14px;
   line-height: 19px;
   margin-bottom: 20px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 main .discussions-section .discussions-content .separator {
@@ -329,7 +329,7 @@ main .discussions-section .discussions-content .separator::before {
       -ms-flex: 1;
           flex: 1;
   height: 1px;
-  background-color: #E7E7E7;
+  background-color: #e7e7e7;
   margin-left: 10px;
 }
 
@@ -339,7 +339,7 @@ main .discussions-section .discussions-content .separator::after {
       -ms-flex: 1;
           flex: 1;
   height: 1px;
-  background-color: #E7E7E7;
+  background-color: #e7e7e7;
   margin-right: 10px;
 }
 
@@ -365,7 +365,7 @@ main .discussions-section .discussions-content form label {
           flex-direction: column;
   font-weight: 700;
   font-size: 16px;
-  color: #ED7839;
+  color: #ed7839;
   margin-top: 15px;
 }
 
@@ -373,7 +373,7 @@ main .discussions-section .discussions-content form label input {
   font-size: 14px;
   padding: 10px;
   outline: none;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
 }
 
 main .discussions-section .discussions-content form label #conteudo {
@@ -381,7 +381,7 @@ main .discussions-section .discussions-content form label #conteudo {
   resize: none;
   outline: none;
   padding: 10px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   border-bottom: none;
 }
 
@@ -397,21 +397,22 @@ main .discussions-section .discussions-content form .formatText {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #EAF1F2;
-  border: 1px solid #CCCCCC;
+  background-color: #eaf1f2;
+  border: 1px solid #cccccc;
 }
 
 main .discussions-section .discussions-content form .formatText button {
   width: 200px;
   height: 100%;
   border: none;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FEB154), to(#F1833E));
-  background-image: linear-gradient(to bottom, #FEB154, #F1833E);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#feb154), to(#f1833e));
+  background-image: linear-gradient(to bottom, #feb154, #f1833e);
   color: white;
   cursor: pointer;
 }
 
-main .discussions-section .discussions-content form .formatText b, main .discussions-section .discussions-content form .formatText i {
+main .discussions-section .discussions-content form .formatText b,
+main .discussions-section .discussions-content form .formatText i {
   color: black;
   margin-left: 15px;
   font-size: 20px;
@@ -432,7 +433,7 @@ main .discussions-section .discussions-content .asks {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin-top: 20px;
 }
 
@@ -446,7 +447,7 @@ main .discussions-section .discussions-content .asks .ask {
 
 main .discussions-section .discussions-content .asks .ask p {
   text-align: start;
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-weight: 400;
 }
 
@@ -471,7 +472,7 @@ main footer img {
 #feedback p {
   margin-left: 10px;
   color: #757575;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   cursor: pointer;
 }
 
@@ -483,7 +484,7 @@ main footer img {
 
 #feedback .like-button {
   cursor: pointer;
-  background-color: #ED7839;
+  background-color: #ed7839;
   padding: 0px 10px;
   height: 100%;
   border: none;

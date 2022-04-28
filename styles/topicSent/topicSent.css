@@ -323,12 +323,16 @@ main .discussions-section .discussions-content p {
   font-family: 'Quicksand', sans-serif;
 }
 
-main .discussions-section .discussions-content a {
+main .discussions-section .discussions-content .links {
   color: #F48F44;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Quicksand', sans-serif;
   margin-bottom: 40px;
+}
+
+main .discussions-section .discussions-content a {
+  text-decoration: none;
 }
 
 main .discussions-section .discussions-content .separator {

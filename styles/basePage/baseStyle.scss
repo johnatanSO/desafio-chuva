@@ -285,6 +285,9 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
+        a{
+          text-decoration: none;
+        }
         button{
           margin:0;
         }
@@ -342,6 +345,12 @@ main {
             color: #4D4D4D;
             font-weight: 400;           
           }
+          h3{
+            color:#ED7839 ;
+          }
+        }
+        a{
+          text-decoration: none;
         }
       }
     }
