@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside {
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  background-color: white;
+}
+
+aside h1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFB354), to(#EE7A3A));
+  background-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
+  color: white;
+  width: 100%;
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+}
+
+aside img {
+  width: 100%;
+  height: 258px;
+}
+
+aside ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 33px;
+  border-bottom: 1px solid #00000040;
+  color: #725C5C;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+aside ul li:hover {
+  background-color: #FDF1EB;
+}
+
+aside ul li:hover div {
+  visibility: visible;
+}
+
+aside ul li div {
+  width: 5px;
+  height: 100%;
+  margin-right: 24px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFB455), to(#ED7B39));
+  background-image: linear-gradient(to bottom, #FFB455, #ED7B39);
+  visibility: hidden;
+}
+
+main {
+  margin-left: 220px;
+  width: 100vw;
+}
+
+main header {
+  background-color: #FDF1EB;
+  padding: 0px 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main header .titles {
+  color: #725C5C;
+}
+
+main header .titles h2, main header .titles p {
+  font-weight: 400;
+}
+
+main header .user-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+}
+
+main header .user-header .user {
+  text-align: right;
+  margin-right: 5px;
+}
+
+main header .user-header img {
+  border-radius: 50%;
+}
+
+main header .user-header .set-language {
+  width: 97px;
+  height: 34px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main header .user-header .set-language select {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+main header .user-header .set-language select option {
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=baseStyle.css.map */
