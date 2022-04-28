@@ -148,18 +148,30 @@
         <h2>Discussões</h2>
 
         <div class="discussions-content">
-          <h3 style="margin-top: 20px;">Compartilhe suas ideias ou dúvidas com os autores!</h3>
-          <div class="icons">
-            <img src="./assets/seed-icon.svg" alt="" />
-            <img src="./assets/Asks.svg" alt="" />
-            <img src="./assets/peoples-icon.svg" alt="" />
-          </div>
-          <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
+          <p style="margin-top:20px">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
           
-          <div class="separator">
+          <form action="">
+            <label for="assunto">
+              Assunto<input placeholder="Defina um tópico sucinto para notificar os autores..." type="text" name="assunto" id="assunto">
+            </label>
+            <label for="conteudo">
+              Conteúdo
+              <textarea name="conteudo" id="conteudo" cols="30" rows="10"></textarea>
+            </label>
+            <div class="formatText">
+              <div class="icons-edit">
+                <b>B</b>
+                <i>I</i>
+              </div>
+              <button id="submit" type="submit">Enviar</button>
+            </div>
             
-            <button class="create-topic-button"><img style="margin-right:5px"src="./assets/plus.svg" alt="Criar tópico"> criar tópico</button>
+              
+              
             
+          </form>
+          
+          <div class="separator">            
           </div>
 
           <div class="asks">
