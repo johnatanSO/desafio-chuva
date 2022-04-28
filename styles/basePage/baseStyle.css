@@ -259,6 +259,7 @@ main .overview-section p {
   border-top: none;
   font-weight: 400;
   color: #5c5c5c;
+  font-family: 'Quicksand', sans-serif;
 }
 
 main .sections-containers {
@@ -314,6 +315,44 @@ main .discussions-section .discussions-content p {
   font-size: 14px;
   line-height: 19px;
   margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main .discussions-section .discussions-content .separator {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .discussions-section .discussions-content .separator button {
+  margin: 0;
+}
+
+main .discussions-section .discussions-content .separator::before {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 1px;
+  background-color: #E7E7E7;
+  margin-left: 10px;
+}
+
+main .discussions-section .discussions-content .separator::after {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 1px;
+  background-color: #E7E7E7;
+  margin-right: 10px;
 }
 
 main .discussions-section .discussions-content .create-topic-button {
@@ -354,6 +393,7 @@ main .discussions-section .discussions-content .asks {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Quicksand', sans-serif;
+  margin-top: 20px;
 }
 
 main .discussions-section .discussions-content .asks .ask {
