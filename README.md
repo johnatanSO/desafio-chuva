@@ -2,7 +2,7 @@
 
 <h3> 💻 Sobre o projeto</h3>
 
-<p>Esse é uma página feita para um desafio de HTML e CSS do processo seletivo sa Chuva.</p>
+<p>Esse é uma página feita para um desafio de HTML e CSS do processo seletivo da Chuva.</p>
 
 <p>📝 O sistema possui:</p>
  <li>Criação de tópico de perguntas</li>
